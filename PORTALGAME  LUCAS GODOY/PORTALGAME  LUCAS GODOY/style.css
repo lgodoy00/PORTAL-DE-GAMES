@@ -1,0 +1,6180 @@
+/* TELA DE DESKTOP */
+@media screen and (min-width:916px) and (max-width:2099px) {
+
+    /* CSS DEINIÇOES GEARIS - Inicio */
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        background: black;
+    }
+
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+    h1 {
+        font-size: 150%;
+        text-align: center;
+        color: white;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .matricula {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+
+    /* CSS DEINIÇOES GEARIS - Fim */
+
+    /* CSS CAROUSEL - Inicio */
+
+    .container {
+        position: relative;
+        padding: 30px;
+        margin: 0 auto;
+        width: 1000px;
+        height: 800px;
+        margin-left: 1000px;
+        margin-top: 370px;
+    }
+
+    .gallery-wrapper {
+        overflow-x: auto;
+        width: 2000px;
+        height: 700px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 40px;
+    }
+
+    .frame3 {
+        width: 650px;
+        height: 450px;
+        margin-left: 1300px;
+    }
+
+    .frame2 {
+        width: 650px;
+        height: 450px;
+        margin-left: 0px;
+    }
+
+    .game1 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+        margin-left: 20px;
+    }
+
+    .game2 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+
+    }
+
+    /* CSS CAROUSEL - Fim */
+
+    /* CSS CABEÇALHO - Inicio */
+
+       #divBusca{
+        background-color:#595f5f;
+        border-radius:15px;
+        width:3000px;
+        height: 70px;
+        padding-top: 10px;
+        margin-top: 1px;
+        margin-left: 700px;
+        margin-bottom: 200px;
+        color: white;
+      }
+      
+      #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:50px;
+        padding-top: 25px;
+        font-style:italic;
+        font-size: 40px;
+        border:none;
+        height:32px;
+        width:2900px;
+        color: white;
+      }
+
+      .pesqui {
+        padding-left: 30px;
+        width: 35px;
+        height: 55px;
+      }
+
+      .rating {
+        font-size: 27px;
+        text-align: center;
+      }
+
+    .logo {
+        padding-left: 200px;
+        width: 1000px;
+        height: 190px;
+    }
+
+    .header a {
+        text-decoration: wavy;
+        color: rgb(0, 0, 0);
+    }
+
+    .header {
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .menul {
+        display: flex;
+    }
+
+    .menul li {
+        list-style-type: none;
+        margin-inline: 35px;
+        font-size: 160%;
+    }
+
+    .sidebar{
+        height: 2000px;
+        margin-left: 500px;
+        padding: 300px;
+    }
+
+    .sidemenu{
+        font-size: 50px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu1{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 500px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu2{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu3{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 2100px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu4{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1900px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu5{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+
+
+
+    /* CSS CABEÇALHO - Fim */
+
+    /* CSS CARD - Inicio */
+
+    .row {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: 0px;
+        box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.22);
+        padding: 3px;
+        margin: 20px;
+        transition: all 2s ease-out;
+        background: rgb(53, 55, 66);
+        margin-left: 500px;
+        height: 700px;
+        margin-top: 350px;
+        width: 3000px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+    .frame1 {
+        width: 1000px;
+        height: 570px;
+    }
+
+    /* CSS CARD - Fim */
+
+    /* CSS DESTAQUES - Inicio */
+
+    .dest {
+        background: black;
+        height: 0px;
+        text-align: center;
+        padding: 0px;
+        font-size: 160%;
+        line-height: 0px;
+        width: 100%;
+    }
+
+    .thelast {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 300px;
+    }
+
+    .thelast1 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+    }
+
+    .thelast2 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .sobgame {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+    }
+
+    .sobgame1 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 180%;
+        margin-left: 230px;
+    }
+
+    .sobgame2 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+        margin-left: 00px;
+    }
+
+    .sob {
+        font-size: 150%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        font-variant: inherit;
+        margin-top: 0px;
+        margin-left: 235px;
+        width: 1300px;
+    }
+
+    .sob2 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1000px;
+        margin-left: 00px;
+        margin-top: 60px;
+    }
+
+    .sob3 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1500px;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+
+    .menu li {
+        display: flex;
+        font-size: 140%;
+        padding: 0px;
+        width: 1200px;
+        margin-left: 280px;
+    }
+
+
+    .menu2 {
+        display: inline-block;
+        font-size: smaller;
+        padding: 5px;
+        width: 130px;
+        margin-top: -10px;
+    }
+
+    .desta {
+        background: black;
+        display: flex;
+        height: 440px;
+        width: 201px;
+    }
+
+    .destaque {
+        padding: 30px;
+        height: 370px;
+    }
+
+    .game {
+        padding: px;
+        height: 440px;
+        width: 670px;
+        padding-left: 870px;
+        margin-top: -410px;
+    }
+
+    /* CSS DESTAQUES - Inicio */
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    .barraslanca {
+        height: 0px;
+    }
+
+    .menulanca {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 900px;
+        height: 0px;
+    }
+
+    .carregar3 {
+        background: black;
+        text-align: right;
+        width: 100%;
+        height: 60px;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .vidd {
+        width: 175px;
+    }
+
+    .lanca {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+    }
+
+    .lancamentospesqui {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 1910px;
+        margin-left: 0px;
+    }
+
+    .lancamentos {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+        border-radius: 200px;
+    }
+
+   
+
+    .publisher10 {
+        background-color: #12001d;
+        height: 470px;
+        width: 500px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 100px;
+       
+    }
+
+
+
+
+
+    .publisher00 {
+        background-color: #12001d;
+        background-image: url(img/fifa-23-4-2.webp);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher001 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(1\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    
+    .publisher002 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(2\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher003 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(3\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher004 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(2\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher005 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(4\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher006 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(5\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher007 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher008 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(3\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher009 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(4\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0010 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(7\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0011 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(8\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0012 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(5\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0013 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0014 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(7\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0015 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(9\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0016 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(10\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0017 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(11\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0018 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(12\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0019 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(13\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+
+
+
+
+    
+    .publisher20 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher30 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher40 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+
+    .publisher50 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher60 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher70 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher80 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+
+    }
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    /* CSS CORPO PLATAFORMAS - Inicio */
+
+    .carregar2 {
+        background: rgb(183, 194, 255);
+        text-align: right;
+        height: 60px;
+        margin-right: 370px;
+        width: 100%;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .principais {
+        text-align: left;
+        font-size: smaller;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .categ {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+
+    }
+
+    .plataformas {
+        background: rgb(183, 194, 255);
+        display: flex;
+        height: 540px;
+        width: 100%;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 200px;
+        padding: 300px;
+        color: black;
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO PLATAFORMAS - Fim */
+
+    /* CSS CORPO CATEGORIAS - Inicio */
+
+    .aluno{
+        margin-bottom: 500px;
+        margin-top: 400px;
+        margin-left: 1600px;
+    }
+
+
+    .carregar {
+        background: rgb(219, 219, 219);
+        width: 100%;
+        height: 60px;
+        text-align: right;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .detalhespesqui {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 35px;
+        margin-left: 3550px;
+        display: inline-block;
+    }
+
+    video {
+        width: 380px;
+    }
+
+
+    .principais {
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+    .categ {
+        text-align: center;
+        line-height: -1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 160px;
+        color: black;
+    }
+
+    .categ1 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ2 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: black;
+    }
+
+    .categ3 {
+        text-align: center;
+        padding: 75px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ4 {
+        
+        padding: 20px;
+        font-size: 50px;
+        line-height: 55px;
+        color: white;
+        margin-left: 1530px;
+        text-align: center;
+        display: flex;
+        
+    }
+
+    .sinopse {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .games {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+
+    .publisher100 {
+        background-color: #12001d;
+        height: 1600px;
+        width: 1600px;
+        margin: 50px;
+        padding: 220px;
+        margin-left: 190px;
+        margin-right: 0px;
+        border-radius: 10px;
+       
+    }
+
+    .lancamentos2 {
+        background: black;
+        display: flex;
+        height: 1500px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+    }
+
+    .categoria {
+        background: rgb(219, 219, 219);
+        display: flex;
+        height: 540px;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO CATEGORIAS - Fim */
+
+    /* CSS RODA PE - Inicio */
+
+    .sobrefooter {
+        background: rgb(219, 219, 219);
+        padding: 150px;
+        display: flex;
+        height: 500px;
+        
+
+    }
+
+    .sobre1 {
+        text-align: left;
+        font-size: 70px;
+        color: black;
+    }
+
+    .sobre {
+        height: 278px;
+        width: 580px;
+        margin-top: 1px;
+        padding: 2%;
+        font-size: 30px;
+        color: black;
+    }
+
+    .editor1 {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editor {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editorial {
+       font-size: 50px;
+       color: black;
+    }
+
+
+    .footer {
+        background: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px;
+        text-align: center;
+        
+        font-size: 35px;
+        margin-left: 300px;
+    }
+
+    /* CSS RODA PE - Fim */
+
+    /* CSS MOBILE - Inicio */
+
+    #menuToggle {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    /* CSS MOBILE - Fim */
+
+    /* CSS Grid 1 - Inicio */
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-gap: 10px;
+    }
+
+    .banner {
+        grid-column: 3;
+        grid-row: 2 / 5;
+    }
+
+    @media screen and (min-width:600px) {
+        .grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .card {
+            display: block;
+        }
+
+        .banner {
+            grid-column: auto;
+            grid-row: auto;
+        }
+    }
+
+    /* CSS Grid 1 - Fim */
+}
+
+
+
+
+/* TELA DE MOBILE */
+@media screen and (max-width:700px) {
+
+   /* CSS DEINIÇOES GEARIS - Inicio */
+
+   html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: black;
+}
+
+body,
+ul,
+li,
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin-left: -20px;
+}
+
+
+
+
+
+.matricula {
+    font-size: 6px;
+    padding: 1px;
+}
+
+.matricula1 {
+    font-size: 8px;
+    padding: 1px;
+    margin-left: -70px;
+}
+
+
+/* CSS DEINIÇOES GEARIS - Fim */
+
+/* CSS CAROUSEL - Inicio */
+
+.container {
+    position: relative;
+    padding: 30px;
+    margin: 0 auto;
+    width: 300px;
+    height: 80px;
+    margin-left: 10px;
+    margin-top: 370px;
+    margin-bottom: -60px;
+}
+
+.gallery-wrapper {
+    overflow-x: auto;
+    width: 320px;
+    height: 180px;
+    margin-left: -20px;
+    margin-top: -180px;
+}
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 4px;
+}
+
+.frame3 {
+    width: 150px;
+    height: 120px;
+    margin-left: 130px;
+}
+
+.frame2 {
+    width: 150px;
+    height: 120px;
+    margin-left: 0px;
+}
+
+.game1 {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    transition: all 60ms ease-in-out;
+    margin-left: 2px;
+}
+
+.game2 {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;
+    transition: all 60ms ease-in-out;
+
+}
+
+/* CSS CAROUSEL - Fim */
+
+/* CSS CABEÇALHO - Inicio */
+
+   #divBusca{
+    background-color:#595f5f;
+    border-radius:15px;
+    width:300px;
+    height: 7px;
+    padding-top: 1px;
+    margin-top: 1px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    padding-top: 2px;
+    font-style:italic;
+    font-size: 4px;
+    border:none;
+    height:3px;
+    width:290px;
+    color: white;
+  }
+
+  .pesqui {
+    margin-left: 285px;
+    padding-left: 3px;
+    width: 4px;
+    height: 2px;
+    
+  }
+
+ 
+
+.logo {
+    padding-left: 10px;
+    width: 40px;
+    height: 20px;
+}
+
+.header a {
+    text-decoration: wavy;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+}
+
+.menul {
+    display: flex;
+}
+
+.menul li {
+    list-style-type: none;
+    margin-inline: 3px;
+    font-size: 160%;
+}
+
+.sidebar{
+    height: 200px;
+    margin-left: 50px;
+    padding: 30px;
+}
+
+.sidemenu{
+    font-size: 8px;
+   display: inline;
+   margin-left: 5px;
+   padding: 0px;
+  padding-left: 1px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  
+}
+
+.sidemenu1{
+    font-size: 5px;
+   display: inline;
+   margin-left: 10px;
+   padding: 0px;
+  padding-left: 230px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  
+}
+
+.sidemenu2{
+    font-size: 5px;
+   display: inline;
+   margin-left: 100px;
+   padding: 0px;
+  padding-left: 140px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  
+}
+
+.sidemenu3{
+    font-size: 5px;
+   display: inline;
+   margin-left: 10px;
+   padding: 0px;
+  padding-left: 225px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  
+}
+
+.sidemenu4{
+    font-size: 5px;
+   display: inline;
+   margin-left: 10px;
+   padding: 0px;
+  padding-left: 230px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  
+}
+
+.sidemenu5{
+    font-size: 5px;
+   display: inline;
+   margin-left: 10px;
+   padding: 0px;
+  padding-left: 230px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+  
+}
+
+
+
+
+/* CSS CABEÇALHO - Fim */
+
+/* CSS CARD - Inicio */
+
+.row {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.22);
+    padding: 3px;
+    margin: 2px;
+    transition: all 2s ease-out;
+    background: rgb(205, 121, 253);
+    margin-left: 50px;
+    height: 210px;
+    margin-top: 155px;
+    width: 270px;
+    padding-top: -50px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.frame1 {
+    width: 115px;
+    height: 90px;
+   
+}
+
+/* CSS CARD - Fim */
+
+/* CSS DESTAQUES - Inicio */
+
+.dest {
+    background: black;
+    height: 0px;
+    text-align: center;
+    padding: 0px;
+    font-size: 5px;
+    line-height: 0px;
+    width: 100%;
+}
+
+.thelast {
+    text-align: left;
+    padding-left: 3px;
+    margin-left: -210px;
+    font-size: 8px;
+    margin-top: -5px;
+}
+
+.thelast1 {
+    text-align: center;
+    padding-left: 3px;
+    margin-left: 5px;
+    font-size: 8px;
+    display: flex;
+}
+
+.thelast2 {
+    text-align: center;
+    padding-left: 3px;
+    margin-left: 5px;
+    display: flex;
+    font-size: 8px;
+}
+
+.sobgame {
+    padding: 2px;
+    width: 140px;
+    font-size: 6px;
+}
+
+.sobgame1 {
+    padding: 2px;
+    width: 140px;
+    font-size: 5px;
+    margin-left: -85px;
+    margin-top: -70px;
+}
+
+.sobgame2 {
+    padding: 2px;
+    width: 140px;
+    font-size: 6px;
+    margin-left: 00px;
+}
+
+.sob {
+    font-size: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1px;
+    font-variant: inherit;
+    margin-top: 10px;
+    margin-left: -85px;
+    width: 130px;
+}
+
+.sob2 {
+    font-size: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1px;
+    width: 100px;
+    margin-left: 00px;
+    margin-top: 6px;
+}
+
+.sob3 {
+    font-size: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1px;
+    width: 150px;
+    margin-left: -1px;
+    margin-top: 5px;
+}
+
+.menu li {
+    display: flex;
+    font-size: 5px;
+    padding: 0px;
+    width: 120px;
+    margin-left: -80px;
+    margin-top: 5px;
+}
+
+
+.menu2 {
+    display: inline-block;
+    font-size: smaller;
+    padding: 5px;
+    width: 13px;
+    margin-top: -1px;
+}
+
+.desta {
+    background: black;
+    display: flex;
+    height: 44px;
+    width: 100%;
+}
+
+.destaque {
+    padding: 3px;
+    height: 37px;
+}
+
+.game {
+    padding: px;
+    height: 44px;
+    width: 67px;
+    padding-left: 87px;
+    margin-top: -41px;
+}
+
+/* CSS DESTAQUES - Inicio */
+
+/* CSS CORPO LANÇAMENTOS - Inicio */
+
+.barraslanca {
+    height: 0px;
+}
+
+.menulanca {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 90px;
+    height: 0px;
+}
+
+.carregar3 {
+    background: black;
+    text-align: right;
+    width: 100%;
+    height: 6px;
+}
+
+.detalhes {
+    text-align: right;
+    color: aliceblue;
+}
+
+.vidd {
+    width: 17px;
+}
+
+.lanca {
+    text-align: center;
+    padding: 1px;
+    font-size: medium;
+    line-height: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 0px;
+}
+
+.lancamentospesqui {
+    background: black;
+    display: flex;
+    height: 20px;
+    padding: 0px;
+    padding-top: 0px;
+    width: 30px;
+    margin-bottom: 220px;
+    margin-left: 0px;
+}
+
+.lancamentospesqui1 {
+    background: black;
+    display: flex;
+    height: 20px;
+    padding: 0px;
+    padding-top: 0px;
+    width: 30px;
+    margin-bottom: 300px;
+    margin-left: 0px;
+}
+
+.bbb {
+    width: 320px;
+    height: 140px;
+}
+
+.lancamentos {
+    background: black;
+    display: flex;
+    height: 20px;
+    padding: 0px;
+    padding-top: 0px;
+    width: 30px;
+    margin-bottom: 123px;
+    margin-left: 0px;
+    border-radius: 20px;
+}
+
+.lancamentosv {
+    background: black;
+    display: flex;
+    height: 20px;
+    padding: 0px;
+    padding-top: 0px;
+    width: 30px;
+    margin-bottom: 123px;
+    margin-left: 0px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.publisher10 {
+    background-color: #553250;
+    height: 83px;
+    width: 33px;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+   
+}
+
+
+
+
+
+.publisher00 {
+    background-color: #12001d;
+    background-image: url(img/fifa-23-4-2.webp);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+    margin-bottom: 200px;
+   
+   
+}
+
+.publisher001 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(1\).jpeg);
+    height: 190px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+
+.publisher002 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(2\).jpeg);
+    height: 190px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher003 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(3\).jpeg);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher004 {
+    background-color: #12001d;
+    background-image: url(img/images\ \(2\).jpeg);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher005 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(4\).jpeg);
+    height: 180px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher006 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(5\).jpeg);
+    height: 185px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher007 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(6\).jpeg);
+    height: 165px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher008 {
+    background-color: #12001d;
+    background-image: url(img/images\ \(3\).jpeg);
+    height: 190px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher009 {
+    background-color: #12001d;
+    background-image: url(img/images\ \(4\).jpeg);
+    height: 195px;
+    width: 75px;
+    margin: 50px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0010 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(7\).jpeg);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0011 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(8\).jpeg);
+    height: 165px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0012 {
+    background-color: #12001d;
+    background-image: url(img/images\ \(5\).jpeg);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0013 {
+    background-color: #12001d;
+    background-image: url(img/images\ \(6\).jpeg);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0014 {
+    background-color: #12001d;
+    background-image: url(img/images\ \(7\).jpeg);
+    height: 190px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0015 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(9\).jpeg);
+    height: 165px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0016 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(10\).jpeg);
+    height: 180px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0017 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(11\).jpeg);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0018 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(12\).jpeg);
+    height: 175px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+.publisher0019 {
+    background-color: #12001d;
+    background-image: url(img/baixados\ \(13\).jpeg);
+    height: 180px;
+    width: 75px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 16px;
+    margin-right: 0px;
+    border-radius: 5px;
+    padding-right: 255px;
+   
+}
+
+
+
+
+
+
+.publisher20 {
+    background: rgb(223, 219, 202);
+    height: 170px;
+    width: 190px;
+    margin: 70px;
+    padding: 1%;
+    margin-left: 1px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.publisher30 {
+    background: rgb(223, 219, 202);
+    height: 170px;
+    width: 190px;
+    margin: 70px;
+    padding: 1%;
+    margin-left: 1px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.publisher40 {
+    background: rgb(223, 219, 202);
+    height: 170px;
+    width: 190px;
+    margin: 70px;
+    padding: 1%;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 10px;
+}
+
+.publisher50 {
+    background: rgb(223, 219, 202);
+    height: 170px;
+    width: 190px;
+    margin: 70px;
+    padding: 1%;
+    margin-left: 1px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.publisher60 {
+    background: rgb(223, 219, 202);
+    height: 170px;
+    width: 190px;
+    margin: 70px;
+    padding: 1%;
+    margin-left: 1px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.publisher70 {
+    background: rgb(223, 219, 202);
+    height: 170px;
+    width: 190px;
+    margin: 70px;
+    padding: 1%;
+    margin-left: 1px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.publisher80 {
+    background: rgb(223, 219, 202);
+    height: 170px;
+    width: 190px;
+    margin: 70px;
+    padding: 1%;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 10px;
+
+}
+
+/* CSS CORPO LANÇAMENTOS - Inicio */
+
+/* CSS CORPO PLATAFORMAS - Inicio */
+
+.carregar2 {
+    background: rgb(183, 194, 255);
+    text-align: right;
+    height: 6px;
+    margin-right: 37px;
+    width: 100%;
+}
+
+.jogos {
+    font-size: x-small;
+    padding: 9px;
+    color: black;
+}
+
+.detalhes {
+    text-align: right;
+}
+
+.principais {
+    text-align: left;
+    font-size: smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.categ {
+    text-align: center;
+    padding: 1px;
+    font-size: medium;
+    line-height: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 0px;
+
+}
+
+.plataformas {
+    background: rgb(183, 194, 255);
+    display: flex;
+    height: 54px;
+    width: 100%;
+}
+
+.publisher1 {
+    height: 36px;
+    width: 40px;
+    margin: 20px;
+    padding: 30px;
+    color: black;
+}
+
+.publisher2 {
+    height: 36px;
+    width: 40px;
+    margin: 2px;
+    padding: 1%;
+}
+
+.publisher3 {
+    height: 36px;
+    width: 40px;
+    margin: 2px;
+    padding: 1%;
+}
+
+/* CSS CORPO PLATAFORMAS - Fim */
+
+/* CSS CORPO CATEGORIAS - Inicio */
+
+.aluno{
+    margin-bottom: 70px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+
+.carregar {
+    background: rgb(219, 219, 219);
+    width: 5px;
+    height: 6px;
+    text-align: right;
+}
+
+.jogos {
+    font-size: 4px;
+    padding: 2px;
+    color: black;
+}
+
+.jogosss {
+    font-size: 4px;
+    padding: 0px;
+    color: black;
+    margin: 0px;
+    display: inline-block;
+}
+
+.detalhes {
+    text-align: right;
+    color: white;
+    padding: 2px;
+    font-size: 4px;
+}
+
+.detalhespesqui {
+    text-align: right;
+    color: white;
+    padding: 10px;
+    font-size: 5px;
+    margin-left: 285px;
+    display: inline-block;
+}
+
+video {
+    width: 38px;
+}
+
+
+.principais {
+    text-align: left;
+    font-size: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.categ {
+    text-align: center;
+    line-height: -1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 16px;
+    color: black;
+}
+
+.categ1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 6px;
+    line-height: 7px;
+    color: white;
+    margin-top: -20px;
+    display: flex;
+    margin-left: -12px;
+    margin-bottom: 0px;
+}
+
+.mm {
+    width: 55px;
+    height: 35px;
+    margin-left: -8px;
+    margin-top: -5px;
+}
+
+.mmm {
+    width: 50px;
+    height: 30px;
+    margin-left: -8px;
+    margin-top: -5px;
+    padding-left: 5px;
+}
+
+.rating {
+    font-size: 4px;
+    text-align: center;
+  }
+
+.categ2 {
+    text-align: center;
+    padding: 8px;
+    font-size: 5px;
+    line-height: 3px;
+    color: black;
+    margin-top: -10px;
+    margin-left: 3px;
+}
+
+.categ3 {
+    text-align: center;
+    padding: 5px;
+    font-size: 7px;
+    line-height: 3px;
+    color: white;
+    margin-top: -10px;
+}
+
+.categ6 {
+    text-align: center;
+    padding: 5px;
+    font-size: 7px;
+    line-height: 3px;
+    color: white;
+    margin-top: -10px;
+}
+
+.categ7 {
+    text-align: center;
+    padding: 5px;
+    font-size: 7px;
+    line-height: 3px;
+    color: white;
+    margin-top: -10px;
+}
+
+.categ4 {
+    
+    padding: 2px;
+    font-size: 9px;
+    line-height: 10px;
+    color: white;
+    margin-left: 153px;
+    text-align: center;
+    display: block;
+    
+}
+
+.sinopse {
+    font-size: 5px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.games {
+    font-size: 5px;
+    text-align: center;
+    margin-left: 0px;
+    padding-top: 3px;
+}
+
+.publisher100 {
+    background-color: #553250;
+    height: 340px;
+    width: 700px;
+    margin: 5px;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 0px;
+    border-radius: 10px;
+    
+   
+}
+
+.lancamentos2 {
+    background: black;
+    display: flex;
+    height: 150px;
+    padding: 0px;
+    padding-top: 0px;
+    width: 30px;
+    margin-bottom: 230px;
+    margin-left: 0px;
+}
+
+.lancamentos6 {
+    background: black;
+    display: flex;
+    height: 150px;
+    padding: 28px;
+    padding-top: 0px;
+    width: 30px;
+    margin-bottom: 230px;
+    margin-left: 0px;
+}
+
+.lancamentos5 {
+    background: black;
+    display: flex;
+    height: 150px;
+    padding: 20px;
+    padding-top: 0px;
+    width: 30px;
+    margin-bottom: 230px;
+    margin-left: 0px;
+}
+
+.categoria {
+    background: rgb(150, 164, 245);
+    display: flex;
+    height: 54px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+.publisher1 {
+    height: 36px;
+    width: 40px;
+    margin: 2px;
+    padding: 1%;
+
+}
+
+.publisher2 {
+    height: 30px;
+    width: 40px;
+    margin: 2px;
+    padding: 1%;
+}
+
+.publisher3 {
+    height: 36px;
+    width: 40px;
+    margin: 2px;
+    padding: 1%;
+}
+
+/* CSS CORPO CATEGORIAS - Fim */
+
+/* CSS RODA PE - Inicio */
+
+.sobrefooter {
+    background: rgb(150, 164, 245);
+    padding: 15px;
+    display: flex;
+    height: 150px;
+    
+
+}
+
+.sobre1 {
+    text-align: left;
+    font-size: 8px;
+    color: black;
+}
+
+.sobre {
+    height: 27px;
+    width: 58px;
+    margin-top: 1px;
+    padding: 2%;
+    font-size: 6px;
+    color: black;
+    margin-left: 0px;
+}
+
+.editor1 {
+    text-align: left;
+    font-size: 3px;
+    color: black;
+    padding-left: 16px;
+    display: block;
+}
+
+.editor {
+    text-align: left;
+    font-size: 3px;
+    color: black;
+    padding-left: 16px;
+    display: block;
+}
+
+.editorial {
+   font-size: 8px;
+   color: black;
+}
+
+
+.footer {
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    text-align: center;
+    font-size: 6px;
+    margin-left: 0px;
+}
+
+/* CSS RODA PE - Fim */
+
+/* CSS MOBILE - Inicio */
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+/* CSS MOBILE - Fim */
+
+/* CSS Grid 1 - Inicio */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    max-width: 80px;
+    margin: 0 auto;
+    padding: 1px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 1px;
+}
+
+.banner {
+    grid-column: 3;
+    grid-row: 2 / 5;
+}
+
+@media screen and (min-width:600px) {
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .banner {
+        grid-column: auto;
+        grid-row: auto;
+    }
+}
+
+/* CSS Grid 1 - Fim */
+}
+
+
+
+
+/* TELA DE TABLET */
+@media screen and (min-width:701px) and (max-width:915px) {
+
+    /* CSS DEINIÇOES GEARIS - Inicio */
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        background: black;
+    }
+
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+    h1 {
+        font-size: 150%;
+        text-align: center;
+        color: white;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .matricula {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+
+    /* CSS DEINIÇOES GEARIS - Fim */
+
+    /* CSS CAROUSEL - Inicio */
+
+    .container {
+        position: relative;
+        padding: 30px;
+        margin: 0 auto;
+        width: 1000px;
+        height: 800px;
+        margin-left: 1000px;
+        margin-top: 370px;
+    }
+
+    .gallery-wrapper {
+        overflow-x: auto;
+        width: 2000px;
+        height: 700px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 40px;
+    }
+
+    .frame3 {
+        width: 650px;
+        height: 450px;
+        margin-left: 1300px;
+    }
+
+    .frame2 {
+        width: 650px;
+        height: 450px;
+        margin-left: 0px;
+    }
+
+    .game1 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+        margin-left: 20px;
+    }
+
+    .game2 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+
+    }
+
+    /* CSS CAROUSEL - Fim */
+
+    /* CSS CABEÇALHO - Inicio */
+
+       #divBusca{
+        background-color:#595f5f;
+        border-radius:15px;
+        width:3000px;
+        height: 70px;
+        padding-top: 10px;
+        margin-top: 1px;
+        margin-left: 700px;
+        margin-bottom: 200px;
+        color: white;
+      }
+      
+      #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:50px;
+        padding-top: 25px;
+        font-style:italic;
+        font-size: 40px;
+        border:none;
+        height:32px;
+        width:2900px;
+        color: white;
+      }
+
+      .pesqui {
+        padding-left: 30px;
+        width: 35px;
+        height: 55px;
+      }
+
+      .rating {
+        font-size: 27px;
+        text-align: center;
+      }
+
+    .logo {
+        padding-left: 200px;
+        width: 1000px;
+        height: 190px;
+    }
+
+    .header a {
+        text-decoration: wavy;
+        color: rgb(0, 0, 0);
+    }
+
+    .header {
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .menul {
+        display: flex;
+    }
+
+    .menul li {
+        list-style-type: none;
+        margin-inline: 35px;
+        font-size: 160%;
+    }
+
+    .sidebar{
+        height: 2000px;
+        margin-left: 500px;
+        padding: 300px;
+    }
+
+    .sidemenu{
+        font-size: 50px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu1{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 500px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu2{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu3{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 2100px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu4{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1900px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu5{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+
+
+
+    /* CSS CABEÇALHO - Fim */
+
+    /* CSS CARD - Inicio */
+
+    .row {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: 0px;
+        box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.22);
+        padding: 3px;
+        margin: 20px;
+        transition: all 2s ease-out;
+        background: rgb(53, 55, 66);
+        margin-left: 500px;
+        height: 700px;
+        margin-top: 350px;
+        width: 3000px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+    .frame1 {
+        width: 1000px;
+        height: 570px;
+    }
+
+    /* CSS CARD - Fim */
+
+    /* CSS DESTAQUES - Inicio */
+
+    .dest {
+        background: black;
+        height: 0px;
+        text-align: center;
+        padding: 0px;
+        font-size: 160%;
+        line-height: 0px;
+        width: 100%;
+    }
+
+    .thelast {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 300px;
+    }
+
+    .thelast1 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+    }
+
+    .thelast2 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .sobgame {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+    }
+
+    .sobgame1 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 180%;
+        margin-left: 230px;
+    }
+
+    .sobgame2 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+        margin-left: 00px;
+    }
+
+    .sob {
+        font-size: 150%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        font-variant: inherit;
+        margin-top: 0px;
+        margin-left: 235px;
+        width: 1300px;
+    }
+
+    .sob2 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1000px;
+        margin-left: 00px;
+        margin-top: 60px;
+    }
+
+    .sob3 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1500px;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+
+    .menu li {
+        display: flex;
+        font-size: 140%;
+        padding: 0px;
+        width: 1200px;
+        margin-left: 280px;
+    }
+
+
+    .menu2 {
+        display: inline-block;
+        font-size: smaller;
+        padding: 5px;
+        width: 130px;
+        margin-top: -10px;
+    }
+
+    .desta {
+        background: black;
+        display: flex;
+        height: 440px;
+        width: 201px;
+    }
+
+    .destaque {
+        padding: 30px;
+        height: 370px;
+    }
+
+    .game {
+        padding: px;
+        height: 440px;
+        width: 670px;
+        padding-left: 870px;
+        margin-top: -410px;
+    }
+
+    /* CSS DESTAQUES - Inicio */
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    .barraslanca {
+        height: 0px;
+    }
+
+    .menulanca {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 900px;
+        height: 0px;
+    }
+
+    .carregar3 {
+        background: black;
+        text-align: right;
+        width: 100%;
+        height: 60px;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .vidd {
+        width: 175px;
+    }
+
+    .lanca {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+    }
+
+    .lancamentospesqui {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 1910px;
+        margin-left: 0px;
+    }
+
+    .lancamentos {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+        border-radius: 200px;
+    }
+
+   
+
+    .publisher10 {
+        background-color: #12001d;
+        height: 470px;
+        width: 500px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 100px;
+       
+    }
+
+
+
+
+
+    .publisher00 {
+        background-color: #12001d;
+        background-image: url(img/fifa-23-4-2.webp);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher001 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(1\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    
+    .publisher002 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(2\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher003 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(3\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher004 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(2\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher005 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(4\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher006 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(5\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher007 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher008 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(3\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher009 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(4\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0010 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(7\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0011 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(8\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0012 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(5\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0013 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0014 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(7\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0015 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(9\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0016 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(10\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0017 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(11\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0018 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(12\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0019 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(13\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+
+
+
+
+    
+    .publisher20 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher30 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher40 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+
+    .publisher50 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher60 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher70 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher80 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+
+    }
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    /* CSS CORPO PLATAFORMAS - Inicio */
+
+    .carregar2 {
+        background: rgb(183, 194, 255);
+        text-align: right;
+        height: 60px;
+        margin-right: 370px;
+        width: 100%;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .principais {
+        text-align: left;
+        font-size: smaller;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .categ {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+
+    }
+
+    .plataformas {
+        background: rgb(183, 194, 255);
+        display: flex;
+        height: 540px;
+        width: 100%;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 200px;
+        padding: 300px;
+        color: black;
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO PLATAFORMAS - Fim */
+
+    /* CSS CORPO CATEGORIAS - Inicio */
+
+    .aluno{
+        margin-bottom: 500px;
+        margin-top: 400px;
+        margin-left: 1600px;
+    }
+
+
+    .carregar {
+        background: rgb(219, 219, 219);
+        width: 100%;
+        height: 60px;
+        text-align: right;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .detalhespesqui {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 35px;
+        margin-left: 3550px;
+        display: inline-block;
+    }
+
+    video {
+        width: 380px;
+    }
+
+
+    .principais {
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+    .categ {
+        text-align: center;
+        line-height: -1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 160px;
+        color: black;
+    }
+
+    .categ1 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ2 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: black;
+    }
+
+    .categ3 {
+        text-align: center;
+        padding: 75px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ4 {
+        
+        padding: 20px;
+        font-size: 50px;
+        line-height: 55px;
+        color: white;
+        margin-left: 1530px;
+        text-align: center;
+        display: flex;
+        
+    }
+
+    .sinopse {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .games {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+
+    .publisher100 {
+        background-color: #12001d;
+        height: 1600px;
+        width: 1600px;
+        margin: 50px;
+        padding: 220px;
+        margin-left: 190px;
+        margin-right: 0px;
+        border-radius: 10px;
+       
+    }
+
+    .lancamentos2 {
+        background: black;
+        display: flex;
+        height: 1500px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+    }
+
+    .categoria {
+        background: rgb(219, 219, 219);
+        display: flex;
+        height: 540px;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO CATEGORIAS - Fim */
+
+    /* CSS RODA PE - Inicio */
+
+    .sobrefooter {
+        background: rgb(219, 219, 219);
+        padding: 150px;
+        display: flex;
+        height: 500px;
+        
+
+    }
+
+    .sobre1 {
+        text-align: left;
+        font-size: 70px;
+        color: black;
+    }
+
+    .sobre {
+        height: 278px;
+        width: 580px;
+        margin-top: 1px;
+        padding: 2%;
+        font-size: 30px;
+        color: black;
+    }
+
+    .editor1 {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editor {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editorial {
+       font-size: 50px;
+       color: black;
+    }
+
+
+    .footer {
+        background: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px;
+        text-align: center;
+        
+        font-size: 35px;
+        margin-left: 300px;
+    }
+
+    /* CSS RODA PE - Fim */
+
+    /* CSS MOBILE - Inicio */
+
+    #menuToggle {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    /* CSS MOBILE - Fim */
+
+    /* CSS Grid 1 - Inicio */
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-gap: 10px;
+    }
+
+    .banner {
+        grid-column: 3;
+        grid-row: 2 / 5;
+    }
+
+    @media screen and (min-width:600px) {
+        .grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .card {
+            display: block;
+        }
+
+        .banner {
+            grid-column: auto;
+            grid-row: auto;
+        }
+    }
+
+    /* CSS Grid 1 - Fim */
+}
+
+
+
+/* TELA DESKTOP ORIGINAL */
+@media screen and (min-width:3000px) and (max-width:5654px) {
+
+    /* CSS DEINIÇOES GEARIS - Inicio */
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        background: black;
+    }
+
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+    h1 {
+        font-size: 150%;
+        text-align: center;
+        color: white;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .matricula {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .matricula1 {
+        font-size: 35px;
+        padding: 10px;
+    }
+
+
+    /* CSS DEINIÇOES GEARIS - Fim */
+
+    /* CSS CAROUSEL - Inicio */
+
+    .container {
+        position: relative;
+        padding: 30px;
+        margin: 0 auto;
+        width: 1000px;
+        height: 800px;
+        margin-left: 1000px;
+        margin-top: 370px;
+    }
+
+    .gallery-wrapper {
+        overflow-x: auto;
+        width: 2000px;
+        height: 700px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 40px;
+    }
+
+    .frame3 {
+        width: 650px;
+        height: 450px;
+        margin-left: 1300px;
+    }
+
+    .frame2 {
+        width: 650px;
+        height: 450px;
+        margin-left: 0px;
+    }
+
+    .game1 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+        margin-left: 20px;
+    }
+
+    .game2 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+
+    }
+
+    /* CSS CAROUSEL - Fim */
+
+    /* CSS CABEÇALHO - Inicio */
+
+       #divBusca{
+        background-color:#595f5f;
+        border-radius:15px;
+        width:3000px;
+        height: 70px;
+        padding-top: 10px;
+        margin-top: 1px;
+        margin-left: 700px;
+        margin-bottom: 200px;
+        color: white;
+      }
+      
+      #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:50px;
+        padding-top: 25px;
+        font-style:italic;
+        font-size: 40px;
+        border:none;
+        height:32px;
+        width:2900px;
+        color: white;
+      }
+
+      .pesqui {
+        padding-left: 30px;
+        width: 35px;
+        height: 55px;
+      }
+
+      .rating {
+        font-size: 27px;
+        text-align: center;
+      }
+
+    .logo {
+        padding-left: 200px;
+        width: 1000px;
+        height: 190px;
+    }
+
+    .header a {
+        text-decoration: wavy;
+        color: rgb(0, 0, 0);
+    }
+
+    .header {
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .menul {
+        display: flex;
+    }
+
+    .menul li {
+        list-style-type: none;
+        margin-inline: 35px;
+        font-size: 160%;
+    }
+
+    .sidebar{
+        height: 2000px;
+        margin-left: 500px;
+        padding: 300px;
+    }
+
+    .sidemenu{
+        font-size: 50px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu1{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 500px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu2{
+        font-size: 30px;
+       display: inline;
+       margin-left: 1700px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu3{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 2100px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu4{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1900px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu5{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+
+
+
+    /* CSS CABEÇALHO - Fim */
+
+    /* CSS CARD - Inicio */
+
+    .row {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: 0px;
+        box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.22);
+        padding: 3px;
+        margin: 20px;
+        transition: all 2s ease-out;
+        background: rgb(53, 55, 66);
+        margin-left: 500px;
+        height: 700px;
+        margin-top: 350px;
+        width: 3000px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+    .frame1 {
+        width: 1000px;
+        height: 570px;
+    }
+
+    /* CSS CARD - Fim */
+
+    /* CSS DESTAQUES - Inicio */
+
+    .dest {
+        background: black;
+        height: 0px;
+        text-align: center;
+        padding: 0px;
+        font-size: 160%;
+        line-height: 0px;
+        width: 100%;
+    }
+
+    .thelast {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 300px;
+    }
+
+    .thelast1 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+    }
+
+    .thelast2 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .sobgame {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+    }
+
+    .sobgame1 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 180%;
+        margin-left: 230px;
+    }
+
+    .sobgame2 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+        margin-left: 00px;
+    }
+
+    .sob {
+        font-size: 150%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        font-variant: inherit;
+        margin-top: 0px;
+        margin-left: 235px;
+        width: 1300px;
+    }
+
+    .sob2 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1000px;
+        margin-left: 00px;
+        margin-top: 60px;
+    }
+
+    .sob3 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1500px;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+
+    .menu li {
+        display: flex;
+        font-size: 140%;
+        padding: 0px;
+        width: 1200px;
+        margin-left: 280px;
+    }
+
+
+    .menu2 {
+        display: inline-block;
+        font-size: smaller;
+        padding: 5px;
+        width: 130px;
+        margin-top: -10px;
+    }
+
+    .desta {
+        background: black;
+        display: flex;
+        height: 440px;
+        width: 201px;
+    }
+
+    .destaque {
+        padding: 30px;
+        height: 370px;
+    }
+
+    .game {
+        padding: px;
+        height: 440px;
+        width: 670px;
+        padding-left: 870px;
+        margin-top: -410px;
+    }
+
+    /* CSS DESTAQUES - Inicio */
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    .barraslanca {
+        height: 0px;
+    }
+
+    .menulanca {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 900px;
+        height: 0px;
+    }
+
+    .carregar3 {
+        background: black;
+        text-align: right;
+        width: 100%;
+        height: 60px;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .vidd {
+        width: 175px;
+    }
+
+    .lanca {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+    }
+
+    .lancamentospesqui {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 1910px;
+        margin-left: 0px;
+    }
+
+    .lancamentospesqui1 {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 1910px;
+        margin-left: 0px;
+    }
+
+    .lancamentos {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+        border-radius: 200px;
+    }
+
+    .lancamentosv {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+        border-radius: 200px;
+    }
+
+   
+
+    .publisher10 {
+        background-color: #12001d;
+        height: 470px;
+        width: 500px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 100px;
+       
+    }
+
+
+
+
+
+    .publisher00 {
+        background-color: #12001d;
+        background-image: url(img/fifa-23-4-2.webp);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher001 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(1\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    
+    .publisher002 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(2\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher003 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(3\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher004 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(2\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher005 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(4\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher006 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(5\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher007 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher008 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(3\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher009 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(4\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0010 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(7\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0011 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(8\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0012 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(5\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0013 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0014 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(7\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0015 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(9\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0016 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(10\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0017 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(11\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0018 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(12\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0019 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(13\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+
+
+
+
+    
+    .publisher20 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher30 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher40 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+
+    .publisher50 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher60 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher70 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher80 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+
+    }
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    /* CSS CORPO PLATAFORMAS - Inicio */
+
+    .carregar2 {
+        background: rgb(183, 194, 255);
+        text-align: right;
+        height: 60px;
+        margin-right: 370px;
+        width: 100%;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .jogosss {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .principais {
+        text-align: left;
+        font-size: smaller;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .categ {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+
+    }
+
+    .plataformas {
+        background: rgb(183, 194, 255);
+        display: flex;
+        height: 540px;
+        width: 100%;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 200px;
+        padding: 300px;
+        color: black;
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO PLATAFORMAS - Fim */
+
+    /* CSS CORPO CATEGORIAS - Inicio */
+
+    .aluno{
+        margin-bottom: 500px;
+        margin-top: 400px;
+        margin-left: 1600px;
+    }
+
+
+    .carregar {
+        background: rgb(219, 219, 219);
+        width: 100%;
+        height: 60px;
+        text-align: right;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .jogosss {
+        font-size: 20px;
+        padding: 25px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .detalhespesqui {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 35px;
+        margin-left: 3550px;
+        display: inline-block;
+    }
+
+    video {
+        width: 380px;
+    }
+
+
+    .principais {
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+    .categ {
+        text-align: center;
+        line-height: -1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 160px;
+        color: black;
+    }
+
+    .categ1 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ2 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: black;
+    }
+
+    .categ3 {
+        text-align: center;
+        padding: 75px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ7 {
+        text-align: center;
+        padding: 75px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ6 {
+        text-align: center;
+        padding: 75px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ4 {
+        
+        padding: 20px;
+        font-size: 50px;
+        line-height: 55px;
+        color: white;
+        margin-left: 1530px;
+        text-align: center;
+        display: flex;
+        
+    }
+
+    .sinopse {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .games {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+
+    .publisher100 {
+        background-color: #12001d;
+        height: 1600px;
+        width: 1600px;
+        margin: 50px;
+        padding: 220px;
+        margin-left: 190px;
+        margin-right: 0px;
+        border-radius: 10px;
+       
+    }
+
+    .lancamentos2 {
+        background: black;
+        display: flex;
+        height: 1500px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+    }
+
+    .lancamentos5 {
+        background: black;
+        display: flex;
+        height: 1500px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+    }
+
+    .lancamentos6 {
+        background: black;
+        display: flex;
+        height: 1500px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+    }
+
+    .categoria {
+        background: rgb(219, 219, 219);
+        display: flex;
+        height: 600px;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO CATEGORIAS - Fim */
+
+    /* CSS RODA PE - Inicio */
+
+    .sobrefooter {
+        background: rgb(219, 219, 219);
+        padding: 150px;
+        display: flex;
+        height: 500px;
+        
+
+    }
+
+    .sobre1 {
+        text-align: left;
+        font-size: 70px;
+        color: black;
+    }
+
+    .sobre {
+        height: 278px;
+        width: 580px;
+        margin-top: 1px;
+        padding: 2%;
+        font-size: 30px;
+        color: black;
+    }
+
+    .editor1 {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editor {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editorial {
+       font-size: 50px;
+       color: black;
+    }
+
+
+    .footer {
+        background: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px;
+        text-align: center;
+        
+        font-size: 35px;
+        margin-left: 300px;
+    }
+
+    /* CSS RODA PE - Fim */
+
+    /* CSS MOBILE - Inicio */
+
+    #menuToggle {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    /* CSS MOBILE - Fim */
+
+    /* CSS Grid 1 - Inicio */
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-gap: 10px;
+    }
+
+    .banner {
+        grid-column: 3;
+        grid-row: 2 / 5;
+    }
+
+    @media screen and (min-width:600px) {
+        .grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .card {
+            display: block;
+        }
+
+        .banner {
+            grid-column: auto;
+            grid-row: auto;
+        }
+    }
+
+    /* CSS Grid 1 - Fim */
+}
+
+
+
+/* TELA DE DESKTOP DEF */
+@media screen and (min-width:2100px) and (max-width:2999px) {
+
+    /* CSS DEINIÇOES GEARIS - Inicio */
+
+    html {
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        background: black;
+    }
+
+    body,
+    ul,
+    li,
+    p {
+        margin: 0px;
+        padding: 0px;
+        font-size: 1rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    }
+
+    h1 {
+        font-size: 150%;
+        text-align: center;
+        color: white;
+    }
+
+    img {
+        max-width: 100%;
+        display: block;
+    }
+
+    .matricula {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+
+    /* CSS DEINIÇOES GEARIS - Fim */
+
+    /* CSS CAROUSEL - Inicio */
+
+    .container {
+        position: relative;
+        padding: 30px;
+        margin: 0 auto;
+        width: 1000px;
+        height: 800px;
+        margin-left: 1000px;
+        margin-top: 370px;
+    }
+
+    .gallery-wrapper {
+        overflow-x: auto;
+        width: 2000px;
+        height: 700px;
+    }
+
+    .gallery {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 40px;
+    }
+
+    .frame3 {
+        width: 650px;
+        height: 450px;
+        margin-left: 1300px;
+    }
+
+    .frame2 {
+        width: 650px;
+        height: 450px;
+        margin-left: 0px;
+    }
+
+    .game1 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+        margin-left: 20px;
+    }
+
+    .game2 {
+        width: 250px;
+        height: 250px;
+        flex-shrink: 0;
+        transition: all 600ms ease-in-out;
+
+    }
+
+    /* CSS CAROUSEL - Fim */
+
+    /* CSS CABEÇALHO - Inicio */
+
+       #divBusca{
+        background-color:#595f5f;
+        border-radius:15px;
+        width:3000px;
+        height: 70px;
+        padding-top: 10px;
+        margin-top: 1px;
+        margin-left: 700px;
+        margin-bottom: 200px;
+        color: white;
+      }
+      
+      #txtBusca{
+        float:left;
+        background-color:transparent;
+        padding-left:50px;
+        padding-top: 25px;
+        font-style:italic;
+        font-size: 40px;
+        border:none;
+        height:32px;
+        width:2900px;
+        color: white;
+      }
+
+      .pesqui {
+        padding-left: 30px;
+        width: 35px;
+        height: 55px;
+      }
+
+      .rating {
+        font-size: 27px;
+        text-align: center;
+      }
+
+    .logo {
+        padding-left: 200px;
+        width: 1000px;
+        height: 190px;
+    }
+
+    .header a {
+        text-decoration: wavy;
+        color: rgb(0, 0, 0);
+    }
+
+    .header {
+        background: black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 100%;
+    }
+
+    .menul {
+        display: flex;
+    }
+
+    .menul li {
+        list-style-type: none;
+        margin-inline: 35px;
+        font-size: 160%;
+    }
+
+    .sidebar{
+        height: 2000px;
+        margin-left: 500px;
+        padding: 300px;
+    }
+
+    .sidemenu{
+        font-size: 50px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 30px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu1{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 500px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu2{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu3{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 2100px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu4{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1900px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+    .sidemenu5{
+        font-size: 30px;
+       display: inline;
+       margin-left: 100px;
+       padding: 0px;
+      padding-left: 1400px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-style: oblique;
+      
+    }
+
+
+
+
+    /* CSS CABEÇALHO - Fim */
+
+    /* CSS CARD - Inicio */
+
+    .row {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card {
+        border-radius: 0px;
+        box-shadow: 10px 10px 10px 10px rgba(50, 50, 50, 0.22);
+        padding: 3px;
+        margin: 20px;
+        transition: all 2s ease-out;
+        background: rgb(53, 55, 66);
+        margin-left: 500px;
+        height: 700px;
+        margin-top: 350px;
+        width: 3000px;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        cursor: pointer;
+    }
+
+    .frame1 {
+        width: 1000px;
+        height: 570px;
+    }
+
+    /* CSS CARD - Fim */
+
+    /* CSS DESTAQUES - Inicio */
+
+    .dest {
+        background: black;
+        height: 0px;
+        text-align: center;
+        padding: 0px;
+        font-size: 160%;
+        line-height: 0px;
+        width: 100%;
+    }
+
+    .thelast {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 300px;
+    }
+
+    .thelast1 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+    }
+
+    .thelast2 {
+        text-align: left;
+        padding-left: 30px;
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .sobgame {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+    }
+
+    .sobgame1 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 180%;
+        margin-left: 230px;
+    }
+
+    .sobgame2 {
+        padding: 20px;
+        width: 1400px;
+        font-size: 190%;
+        margin-left: 00px;
+    }
+
+    .sob {
+        font-size: 150%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        font-variant: inherit;
+        margin-top: 0px;
+        margin-left: 235px;
+        width: 1300px;
+    }
+
+    .sob2 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1000px;
+        margin-left: 00px;
+        margin-top: 60px;
+    }
+
+    .sob3 {
+        font-size: 170%;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        padding: 15px;
+        width: 1500px;
+        margin-left: -10px;
+        margin-top: 50px;
+    }
+
+    .menu li {
+        display: flex;
+        font-size: 140%;
+        padding: 0px;
+        width: 1200px;
+        margin-left: 280px;
+    }
+
+
+    .menu2 {
+        display: inline-block;
+        font-size: smaller;
+        padding: 5px;
+        width: 130px;
+        margin-top: -10px;
+    }
+
+    .desta {
+        background: black;
+        display: flex;
+        height: 440px;
+        width: 201px;
+    }
+
+    .destaque {
+        padding: 30px;
+        height: 370px;
+    }
+
+    .game {
+        padding: px;
+        height: 440px;
+        width: 670px;
+        padding-left: 870px;
+        margin-top: -410px;
+    }
+
+    /* CSS DESTAQUES - Inicio */
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    .barraslanca {
+        height: 0px;
+    }
+
+    .menulanca {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        width: 900px;
+        height: 0px;
+    }
+
+    .carregar3 {
+        background: black;
+        text-align: right;
+        width: 100%;
+        height: 60px;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .vidd {
+        width: 175px;
+    }
+
+    .lanca {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+    }
+
+    .lancamentospesqui {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 1910px;
+        margin-left: 0px;
+    }
+
+    .lancamentos {
+        background: black;
+        display: flex;
+        height: 200px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+        border-radius: 200px;
+    }
+
+   
+
+    .publisher10 {
+        background-color: #12001d;
+        height: 470px;
+        width: 500px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 100px;
+       
+    }
+
+
+
+
+
+    .publisher00 {
+        background-color: #12001d;
+        background-image: url(img/fifa-23-4-2.webp);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher001 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(1\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    
+    .publisher002 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(2\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher003 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(3\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher004 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(2\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher005 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(4\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher006 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(5\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher007 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher008 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(3\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher009 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(4\).jpeg);
+        height: 1750px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0010 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(7\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0011 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(8\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0012 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(5\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0013 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(6\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0014 {
+        background-color: #12001d;
+        background-image: url(img/images\ \(7\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0015 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(9\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0016 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(10\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0017 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(11\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0018 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(12\).jpeg);
+        height: 1650px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+    .publisher0019 {
+        background-color: #12001d;
+        background-image: url(img/baixados\ \(13\).jpeg);
+        height: 1700px;
+        width: 1000px;
+        margin: 50px;
+        padding: 150px;
+        margin-left: 160px;
+        margin-right: 0px;
+        border-radius: 50px;
+        padding-right: 2550px;
+       
+    }
+
+
+
+
+
+    
+    .publisher20 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher30 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher40 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+    }
+
+    .publisher50 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher60 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher70 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .publisher80 {
+        background: rgb(223, 219, 202);
+        height: 170px;
+        width: 190px;
+        margin: 70px;
+        padding: 1%;
+        margin-left: 1px;
+        margin-right: 1px;
+        border-radius: 10px;
+
+    }
+
+    /* CSS CORPO LANÇAMENTOS - Inicio */
+
+    /* CSS CORPO PLATAFORMAS - Inicio */
+
+    .carregar2 {
+        background: rgb(183, 194, 255);
+        text-align: right;
+        height: 60px;
+        margin-right: 370px;
+        width: 100%;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+    }
+
+    .principais {
+        text-align: left;
+        font-size: smaller;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .categ {
+        text-align: center;
+        padding: 10px;
+        font-size: medium;
+        line-height: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 0px;
+
+    }
+
+    .plataformas {
+        background: rgb(183, 194, 255);
+        display: flex;
+        height: 540px;
+        width: 100%;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 200px;
+        padding: 300px;
+        color: black;
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO PLATAFORMAS - Fim */
+
+    /* CSS CORPO CATEGORIAS - Inicio */
+
+    .aluno{
+        margin-bottom: 500px;
+        margin-top: 400px;
+        margin-left: 1600px;
+    }
+
+
+    .carregar {
+        background: rgb(219, 219, 219);
+        width: 100%;
+        height: 60px;
+        text-align: right;
+    }
+
+    .jogos {
+        font-size: x-small;
+        padding: 9px;
+        color: black;
+    }
+
+    .detalhes {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .detalhespesqui {
+        text-align: right;
+        color: white;
+        padding: 20px;
+        font-size: 35px;
+        margin-left: 3550px;
+        display: inline-block;
+    }
+
+    video {
+        width: 380px;
+    }
+
+
+    .principais {
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: black;
+    }
+
+    .categ {
+        text-align: center;
+        line-height: -1px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        width: 160px;
+        color: black;
+    }
+
+    .categ1 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ2 {
+        text-align: center;
+        padding: 8px;
+        font-size: 35px;
+        line-height: 35px;
+        color: black;
+    }
+
+    .categ3 {
+        text-align: center;
+        padding: 75px;
+        font-size: 35px;
+        line-height: 35px;
+        color: white;
+    }
+
+    .categ4 {
+        
+        padding: 20px;
+        font-size: 50px;
+        line-height: 55px;
+        color: white;
+        margin-left: 1530px;
+        text-align: center;
+        display: flex;
+        
+    }
+
+    .sinopse {
+        font-size: 28px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .games {
+        font-size: 30px;
+        text-align: center;
+        margin-left: 0px;
+        padding-top: 30px;
+    }
+
+    .publisher100 {
+        background-color: #12001d;
+        height: 1600px;
+        width: 1600px;
+        margin: 50px;
+        padding: 220px;
+        margin-left: 190px;
+        margin-right: 0px;
+        border-radius: 10px;
+       
+    }
+
+    .lancamentos2 {
+        background: black;
+        display: flex;
+        height: 1500px;
+        padding: 0px;
+        padding-top: 0px;
+        width: 300px;
+        margin-bottom: 700px;
+        margin-left: 0px;
+    }
+
+    .categoria {
+        background: rgb(219, 219, 219);
+        display: flex;
+        height: 540px;
+        width: 100%;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .publisher1 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+
+    }
+
+    .publisher2 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    .publisher3 {
+        height: 360px;
+        width: 400px;
+        margin: 20px;
+        padding: 1%;
+    }
+
+    /* CSS CORPO CATEGORIAS - Fim */
+
+    /* CSS RODA PE - Inicio */
+
+    .sobrefooter {
+        background: rgb(219, 219, 219);
+        padding: 150px;
+        display: flex;
+        height: 500px;
+        
+
+    }
+
+    .sobre1 {
+        text-align: left;
+        font-size: 70px;
+        color: black;
+    }
+
+    .sobre {
+        height: 278px;
+        width: 580px;
+        margin-top: 1px;
+        padding: 2%;
+        font-size: 30px;
+        color: black;
+    }
+
+    .editor1 {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editor {
+        text-align: left;
+        font-size: 30px;
+        color: black;
+        padding-left: 160px;
+        display: block;
+    }
+
+    .editorial {
+       font-size: 50px;
+       color: black;
+    }
+
+
+    .footer {
+        background: rgb(0, 0, 0);
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3px;
+        text-align: center;
+        
+        font-size: 35px;
+        margin-left: 300px;
+    }
+
+    /* CSS RODA PE - Fim */
+
+    /* CSS MOBILE - Inicio */
+
+    #menuToggle {
+        display: none;
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    /* CSS MOBILE - Fim */
+
+    /* CSS Grid 1 - Inicio */
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        grid-gap: 10px;
+    }
+
+    .banner {
+        grid-column: 3;
+        grid-row: 2 / 5;
+    }
+
+    @media screen and (min-width:600px) {
+        .grid {
+            grid-template-columns: 1fr 1fr;
+        }
+
+        .card {
+            display: block;
+        }
+
+        .banner {
+            grid-column: auto;
+            grid-row: auto;
+        }
+    }
+
+    /* CSS Grid 1 - Fim */
+}
